@@ -1,6 +1,10 @@
 {
   "name": "js17-ml-frontend",
   "version": "0.0.0",
+  "engines": {
+    "node": "12.16.2",
+	"npm":  "6.14.15"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
