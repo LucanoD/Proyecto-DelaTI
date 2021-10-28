@@ -5,8 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class MachineLearningService {
-  //readonly URL = 'https://js17-ml-backend.herokuapp.com';
-  readonly URL = 'http://127.0.0.1:5000';
+  readonly URL = 'https://delati-pmljs17v1-backend.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 
